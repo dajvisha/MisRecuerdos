@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="Sx8-f9-idG">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brain-and-head" translatesAutoresizingMaskIntoConstraints="NO" id="Gik-fy-1j2">
+                                <rect key="frame" x="91" y="215" width="138" height="138"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="138" id="Di9-lf-IQA"/>
+                                    <constraint firstAttribute="width" constant="138" id="ofM-dC-gKO"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mis Recuerdos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgp-1v-XR6">
+                                <rect key="frame" x="81" y="372" width="159.5" height="37.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="159.5" id="XBi-B8-LwJ"/>
+                                    <constraint firstAttribute="height" constant="37.5" id="hCI-v7-TOB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="KannadaSangamMN" family="Kannada Sangam MN" pointSize="25"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Sx8-f9-idG" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="5oc-mb-Uln"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Sx8-f9-idG" secondAttribute="bottom" id="BhB-yK-NMw"/>
+                            <constraint firstItem="bgp-1v-XR6" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="SWO-CF-lTM"/>
+                            <constraint firstItem="Sx8-f9-idG" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Zz1-h4-KM5"/>
+                            <constraint firstItem="bgp-1v-XR6" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="106.75" id="aEY-ce-q4t"/>
+                            <constraint firstAttribute="trailing" secondItem="Sx8-f9-idG" secondAttribute="trailing" id="fGj-Mz-jM0"/>
+                            <constraint firstItem="Gik-fy-1j2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="fh5-xT-KZZ"/>
+                            <constraint firstItem="Gik-fy-1j2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="hyh-Qz-34O"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="brain-and-head" width="1023" height="1023"/>
+        <image name="fondo" width="750" height="1334"/>
+    </resources>
+</document>
