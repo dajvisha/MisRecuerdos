@@ -122,8 +122,8 @@ class ViewControllerAgregarMomento: UIViewController,UIImagePickerControllerDele
             if (urlCancion != "") {
                 
                 songURL = URL(string: urlCancion)
-                lbCancion.text = nombreArtistaS
-                lbArtista.text = nombreCancionS
+                lbCancion.text = nombreCancionS
+                lbArtista.text = nombreArtistaS
                 btMusica.isHidden = true
                 
             }
